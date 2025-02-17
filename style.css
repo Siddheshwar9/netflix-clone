@@ -93,11 +93,19 @@ nav button {
 .head{
     font-family: san sans-serif;
     height: 41.21px;;
+    font-size: 30px;
     width: 1240.98px;
     color: rgb(241, 235, 235);
     margin-top: 10px;
-    align-content: center;
+    margin-left: 110px;
+    margin-bottom: 2px;
 } 
+.boxes{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 35px;
+}
 .box-img{
     height: 261.991px; 
     width: 130.995px;
@@ -113,5 +121,16 @@ nav button {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    color: white;
+}
+.box-img h1 {
+    font-size: 100px;
+    color: black; /* Black fill inside the number */
+    text-shadow: 
+      2px 2px 0 white,   /* Top-left border */
+      -2px 2px 0 white,  /* Top-right border */
+      2px -2px 0 white,  /* Bottom-left border */
+      -2px -2px 0 white; /* Bottom-right border */
+    margin-right: 120px;
+    margin-bottom: 120px;
 }
