@@ -19,7 +19,7 @@
     top: 0;
 }
 nav{
-    max-width: 80vh;
+    max-width: 80vw;
     display: flex;
     margin: auto;
     justify-content: space-around;
@@ -29,5 +29,12 @@ nav{
 nav img{
     color: red;
     width: 112px;
+    position: relative;
+    z-index: 1;
+
+}
+nav button{
+    position: relative;
+    z-index: 1;
 
 }
