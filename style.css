@@ -1,24 +1,34 @@
-*{
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 100;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff')
+}
+
+* {
     margin: 0%;
     padding: 0%;
 }
-.main{
-    background-image: url("main photo.jpg");
+
+.main {
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Faldianews.com%2Fen%2Fculture%2Fscreen%2Fnetflixs-diversity-failure&psig=AOvVaw3XEVaOboV-2m_UMXN_NPD6&ust=1739882265696000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOC9idjcyosDFQAAAAAdAAAAABA8");
     height: 80vh;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1200px,100vw);
+    background-size: max(1200px, 100vw);
     position: relative;
 }
-.main .box1{
+
+.main .box1 {
     width: 100%;
     height: 80vh;
-    opacity: 0.45;
+    opacity: 0.55;
     background-color: black;
     position: absolute;
     top: 0;
 }
-nav{
+
+nav {
     max-width: 80vw;
     display: flex;
     margin: auto;
@@ -26,15 +36,37 @@ nav{
     align-items: center;
     height: 62px;
 }
-nav img{
+
+nav img {
     color: red;
     width: 112px;
     position: relative;
     z-index: 1;
 
 }
-nav button{
+
+nav button {
     position: relative;
     z-index: 1;
+}
 
+.hero {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'Netflix Sans';
+    gap:23px;
+}
+.hero :first-child{
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.hero :nth-child(2){
+    font-weight: 400px;
+    font-size: 24px;
 }
