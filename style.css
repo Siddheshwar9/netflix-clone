@@ -90,24 +90,27 @@ nav button {
     background-color: rgb(69, 69, 69);
 }
 
-.head{
+.head {
     font-family: san sans-serif;
-    height: 41.21px;;
+    height: 41.21px;
+    ;
     font-size: 30px;
     width: 1240.98px;
     color: rgb(241, 235, 235);
     margin-top: 10px;
     margin-left: 90px;
     margin-bottom: 2px;
-} 
-.boxes{
+}
+
+.boxes {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 35px;
 }
-.box-img{
-    height: 261.991px; 
+
+.box-img {
+    height: 261.991px;
     width: 130.995px;
     background-size: cover;
     background-color: aqua;
@@ -123,14 +126,53 @@ nav button {
     align-items: center;
     color: white;
 }
+
 .box-img h1 {
     font-size: 100px;
-    color: black; /* Black fill inside the number */
-    text-shadow: 
-      2px 2px 0 white,   /* Top-left border */
-      -2px 2px 0 white,  /* Top-right border */
-      2px -2px 0 white,  /* Bottom-left border */
-      -2px -2px 0 white; /* Bottom-right border */
+    color: black;
+    /* Black fill inside the number */
+    text-shadow:
+        2px 2px 0 white,
+        /* Top-left border */
+        -2px 2px 0 white,
+        /* Top-right border */
+        2px -2px 0 white,
+        /* Bottom-left border */
+        -2px -2px 0 white;
+    /* Bottom-right border */
     margin-right: 120px;
     margin-bottom: 120px;
+}
+.btn{
+    padding: 3px 24px;
+    font-weight: bold;
+    color: black;
+   
+}
+.hero-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+}
+.main input{
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 900;
+    padding: 7px 101px 8px 14px;
+    background-color: rgba(23,23,23,0.2);
+    border: 1px solid rgba(246,238,238,0.5);
+}
+    
+.btn-red{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 3px 24px;
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
 }
