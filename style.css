@@ -93,12 +93,11 @@ nav button {
 .head {
     font-family: san sans-serif;
     height: 41.21px;
-    ;
     font-size: 30px;
     width: 1240.98px;
     color: rgb(241, 235, 235);
     margin-top: 10px;
-    margin-left: 90px;
+    margin-left: 180px;
     margin-bottom: 2px;
 }
 
@@ -107,6 +106,7 @@ nav button {
     justify-content: center;
     align-items: center;
     gap: 35px;
+  
 }
 
 .box-img {
@@ -125,7 +125,11 @@ nav button {
     justify-content: center;
     align-items: center;
     color: white;
+    transition: all 0.3s ease-in-out
 }
+.box-img:hover {
+    transform: scale(1.1);
+} 
 
 .box-img h1 {
     font-size: 100px;
