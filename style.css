@@ -106,7 +106,7 @@ nav button {
     justify-content: center;
     align-items: center;
     gap: 35px;
-  
+
 }
 
 .box-img {
@@ -127,9 +127,11 @@ nav button {
     color: white;
     transition: all 0.3s ease-in-out
 }
+
 .box-img:hover {
     transform: scale(1.1);
-} 
+    border: 2px solid white;
+}
 
 .box-img h1 {
     font-size: 100px;
@@ -147,30 +149,26 @@ nav button {
     margin-right: 120px;
     margin-bottom: 120px;
 }
-.btn{
-    padding: 3px 24px;
-    font-weight: bold;
-    color: black;
-   
-}
-.hero-btns{
+
+.hero-btns {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:16px;
-   
+    gap: 16px;
+
 }
-.main input{
+
+.main input {
     border-radius: 4px;
     font-size: 12px;
     font-weight: 900;
     padding: 7px 101px 8px 14px;
-    background-color: rgba(23,23,23,0.2);
-    border: 1px solid rgba(246,238,238,0.5);
-    color:white;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: white;
 }
-    
-.btn-red{
+
+.btn-red {
     background-color: red;
     color: white;
     border-radius: 4px;
@@ -178,7 +176,14 @@ nav button {
     padding: 3px 24px;
 }
 
-.btn-red-sm{
+.btn-red-sm {
     background-color: red;
     color: white;
+}
+
+.btn {
+    padding: 3px 24px;
+    font-weight: bold;
+    color: black;
+
 }
