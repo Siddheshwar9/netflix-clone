@@ -1,9 +1,4 @@
-@font-face {
-    font-family: 'Netflix Sans';
-    font-weight: 100;
-    font-display: optional;
-    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff')
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 * {
     margin: 0%;
@@ -62,7 +57,8 @@ nav button {
     flex-direction: column;
     color: white;
     position: relative;
-    font-family: 'Netflix Sans';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; /* Bold */
     gap: 23px;
     padding: 0 30px;
 }
@@ -168,7 +164,7 @@ nav button {
     color: white;
 }
 
-.btn-red {
+/*.btn-red {
     background-color: red;
     color: white;
     border-radius: 4px;
@@ -179,11 +175,44 @@ nav button {
 .btn-red-sm {
     background-color: red;
     color: white;
+}*/
+.btn-red {
+    background-color: red !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 3px 24px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    font-weight: 400;
+}
+
+.btn-red-sm {
+    background-color: red !important;
+    color: white !important;
+    
 }
 
 .btn {
     padding: 3px 24px;
     font-weight: bold;
-    color: black;
-
+    color: white;
+    background-color: rgba(248, 243, 234, 0.021);
+    border:1px solid white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.sign{
+    color: white;
+    border-radius: 15px;
+    height: 85px;
+    align-items: center;
+    display: flex;
+    background-color: rgba(110, 106, 106, 0.971);
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
 }
