@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
 
 * {
     margin: 0%;
     padding: 0%;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -58,7 +59,8 @@ nav button {
     color: white;
     position: relative;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700; /* Bold */
+    font-weight: 700;
+    /* Bold */
     gap: 23px;
     padding: 0 30px;
 }
@@ -94,7 +96,7 @@ nav button {
     color: rgb(241, 235, 235);
     margin-top: 10px;
     margin-left: 155px;
-    margin-bottom: 2px;
+    margin-bottom: 15px;
 }
 
 .boxes {
@@ -102,6 +104,9 @@ nav button {
     justify-content: center;
     align-items: center;
     gap: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
 
 }
 
@@ -192,7 +197,7 @@ nav button {
 .btn-red-sm {
     background-color: red !important;
     color: white !important;
-    
+
 }
 
 .btn {
@@ -200,11 +205,12 @@ nav button {
     font-weight: bold;
     color: white;
     background-color: rgba(248, 243, 234, 0.021);
-    border:1px solid white;
+    border: 1px solid white;
     cursor: pointer;
     border-radius: 4px;
 }
-.sign{
+
+.sign {
     color: white;
     border-radius: 15px;
     height: 85px;
@@ -215,4 +221,45 @@ nav button {
     padding-left: 5px;
     padding-right: 5px;
     cursor: pointer;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
 }
