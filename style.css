@@ -89,7 +89,6 @@ nav button {
     position: relative;
     z-index: 2;
 }
-
 .head {
     font-family: san sans-serif;
     height: 41.21px;
@@ -139,7 +138,7 @@ nav button {
 .box-img h1 {
     font-size: 100px;
     color: black;
-    /* Black fill inside the number */
+    /*Black fill inside the number */
     text-shadow:
         2px 2px 0 white,
         /* Top-left border */
@@ -148,7 +147,7 @@ nav button {
         2px -2px 0 white,
         /* Bottom-left border */
         -2px -2px 0 white;
-    /* Bottom-right border */
+        /* Bottom-right border */
     margin-right: 120px;
     margin-bottom: 120px;
 }
